@@ -20,6 +20,13 @@ class ProductsTableViewController: UITableViewController {
         cell.imageView?.image = UIImage(named: "image-cell1")
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ShowProduct" {
+            let productVC = segue.destinationViewController as? ProductViewController
+            productVC?.productName = "Really old phone"
+        }
+    }
 
 
 }
