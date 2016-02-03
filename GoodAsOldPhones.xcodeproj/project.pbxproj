@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42A97981C62898400A7B97C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A97971C62898400A7B97C /* Product.swift */; };
 		D45B9D751C6127BD0021288A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B9D741C6127BD0021288A /* ProductViewController.swift */; };
 		D45B9D771C6131610021288A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B9D761C6131610021288A /* ContactViewController.swift */; };
 		D45B9D791C6140F00021288A /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B9D781C6140F00021288A /* ProductsTableViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D42A97971C62898400A7B97C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D45B9D741C6127BD0021288A /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		D45B9D761C6131610021288A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		D45B9D781C6140F00021288A /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D45B9D741C6127BD0021288A /* ProductViewController.swift */,
 				D45B9D761C6131610021288A /* ContactViewController.swift */,
 				D45B9D781C6140F00021288A /* ProductsTableViewController.swift */,
+				D42A97971C62898400A7B97C /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				D45B9D751C6127BD0021288A /* ProductViewController.swift in Sources */,
 				D45B9D791C6140F00021288A /* ProductsTableViewController.swift in Sources */,
+				D42A97981C62898400A7B97C /* Product.swift in Sources */,
 				D4FAA4CC1C5FAFFE004B8EF8 /* AppDelegate.swift in Sources */,
 				D45B9D771C6131610021288A /* ContactViewController.swift in Sources */,
 			);
